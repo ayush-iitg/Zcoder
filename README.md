@@ -68,15 +68,21 @@ cd zcoder
 
 # Start server
 cd server
+
 npm install
+
 npm start
 
 # Start socket server
 cd ../socket
+
 npm install
+
 npm start
 
 # Start client
 cd ../client/my-app
+
 npm install
+
 npm start
