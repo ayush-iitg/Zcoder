@@ -1,84 +1,82 @@
-# ZCoder
+# 🚀 ZCoder
 
-ZCoder is a comprehensive platform designed to facilitate collaborative learning among users interested in coding and problem-solving. It allows users to create profiles, engage in collaborative learning, chat with each other, discuss problem-solving techniques, share interesting insights, and participate in community discussions. Additionally, it includes a contest calendar page where users can stay updated on upcoming contests.
+**ZCoder** is a collaborative coding platform built for learners and problem-solvers. It helps users connect, discuss algorithms, share insights, and grow together. With features like real-time chat, community posts, study groups, and a contest calendar — ZCoder becomes your go-to hub for everything coding.
 
-## Table of Contents
+---
 
-- [Features](#features)
-  - [Login Page](#login-page)
-  - [User Profiles](#user-profiles)
-  - [Collaborative Learning](#collaborative-learning)
-  - [Chat](#chat)
-  - [Problem-Solving Discussions](#problem-solving-discussions)
-  - [Community Section](#community-section)
-  - [Contest Calendar](#contest-calendar)
-- [Installation](#installation)
-- [Usage](#usage)
+## 📚 Table of Contents
 
-## Features
+- [✨ Features](#-features)
+  - [🔐 Login & Authentication](#-login--authentication)
+  - [👤 User Profiles](#-user-profiles)
+  - [🤝 Collaborative Learning](#-collaborative-learning)
+  - [💬 Real-time Chat](#-real-time-chat)
+  - [🧠 Problem-Solving Discussions](#-problem-solving-discussions)
+  - [🌐 Community Forum](#-community-forum)
+  - [📅 Contest Calendar](#-contest-calendar)
+- [⚙️ Installation](#️-installation)
+- [🚀 Usage](#-usage)
+- [🛠️ Contributing](#️-contributing)
+- [📩 Issues](#-issues)
 
- ### Login Page
- - **Enhanced Security:**  Our website exclusively supports logins through Google Authentication, ensuring a secure and streamlined login experience for our users.
- - **New Account on first time Login:** Once you login after google authentication your profile is automatically created however you still need to fill in the necessary details in the user profile section.
+---
 
-### User Profiles
+## ✨ Features
 
-- **Details:** Users can choose username for themselves and upload details about their institution and other details.
-- **Bio:** A section where users can write a short bio about themselves.
-- **Other Profiles:** Users can list username in different platforms such as Codeforces, Codechef, Atcoder and Leetcode.
-- **Linkedin:** user can put up their linkedin profiles.
+### 🔐 Login & Authentication
+- **Secure Login:** Google Authentication for simple and secure login.
+- **Auto Profile Creation:** New users automatically get a basic profile on first login, with editable fields for customization.
 
-### Collaborative Learning
+### 👤 User Profiles
+- **Custom Username & Bio**
+- **Institution Details**
+- **Coding Platform Handles:** Add usernames for Codeforces, CodeChef, AtCoder, LeetCode.
+- **LinkedIn Profile Support**
 
-- **Study Groups:** Users can join  study groups based on specific topics or programming languages.
-- **Learning Resources:** A collection of tutorials, articles, and videos(links) shared by the community.
+### 🤝 Collaborative Learning
+- **Study Groups:** Join or create groups by topic or language.
+- **Shared Resources:** Contribute and access curated tutorials, articles, and video links.
 
-### Chat
+### 💬 Real-time Chat
+- **Private Messaging:** Connect with any user directly.
+- **Self-Chat:** Bookmark problems and articles by sending links to yourself.
+- **Profile Drawer:** View user details via the top-right drawer menu.
 
-- **Private Messaging:** Users can send private messages to each other.
-- **Self Chat:** Users can book mark questions, articles by sending links in their slef chat.
-- **Drawer:** Users can check their profile details by clicking on their profile.
+### 🧠 Problem-Solving Discussions
+- **Solution Sharing:** Share your approach and view others’ solutions.
+- **Interactive Q&A:** Comment, discuss, and learn together.
 
-### Problem-Solving Discussions
+### 🌐 Community Forum
+- **Posts:** Share updates, news, or interesting articles.
+- **Open Discussions:** Ask questions, initiate debates, or crowdsource help.
 
-- **Solution Sharing:** Users can share their solutions and approaches to problems via community and end to end user interactions.
+### 📅 Contest Calendar
+- **Upcoming Contests:** View contests from Codeforces, Leetcode, Atcoder, etc.
+- **Contest Info:** Includes date, time, platform, and registration links.
 
-### Community Section
+---
 
-- **Posts:** Users can create messages to share news, articles, or opinions.
-- **Discussion:** Users can start discussions on various topics and engage with the community.
+## ⚙️ Installation
 
-### Contest Calendar
+To run **ZCoder** locally, follow these steps:
 
-- **Calendar View:** List of upcoming contests in various platforms are displayed here.
-- **Contest Details:** Detailed information about each contest, including duration, platform, and registration links.
+1. **Clone the repository:**
+ 
 
-## Installation
 
-To install and run ZCoder locally, follow these steps:
+cd zcoder
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/aaditya-jalan/zcoder.git
-2. Navigate to the project directory and download the necessary dependencies:(copy-paste the following code into the terminal)
-   ```bash
-   cd Zcoder
-   cd server
-   npm i
-   npm start
-   cd ..
-   cd socket
-   npm i
-   npm start
-   cd ..
-   cd client
-   cd my-app
-   npm i
-   npm start
+# Start server
+cd server
+npm install
+npm start
 
-After this the app should start in your device (if you are facing any issues/bugs please raise them in the issues section).
+# Start socket server
+cd ../socket
+npm install
+npm start
 
-## Usage
-
-Once the server is running, open your browser and navigate to http://localhost:3000 to start using ZCoder. You can create an account by directly signing up with google, set up your profile, join collaborative learning groups, chat with other users, participate in problem-solving discussions, and check the contest calendar.
-
+# Start client
+cd ../client/my-app
+npm install
+npm start
